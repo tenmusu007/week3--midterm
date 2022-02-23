@@ -1,0 +1,28 @@
+@import url(../style.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div{
+    background-color:var(--lp-background-color);
+    height: 100vh;
+}
+
+.global-container{
+
+}
+
+.sidebarLeft{
+    background-color: red;
+}
+
+.center{
+    background-color: blue;
+}
+
+.sidebarRight{
+    background-color: yellow;
+}
