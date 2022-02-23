@@ -7,6 +7,9 @@
 body{
     background-color:rgb(244 243 241);
 }
+nav{
+    display: block;
+}
 .side-bar{
     display: flex;
     flex-direction: column;
@@ -14,7 +17,7 @@ body{
     height: 100vh;
     width: 80px;
     align-items: center;
-    border-right:solid #c5c5c5 0.7px;
+    border-right:solid rgba(230, 230, 230, 1) 0.5px;
     
 }
 .icons{
@@ -24,7 +27,7 @@ body{
 }
 #iconito {
     padding-bottom: 30px;
-    border-bottom:solid 0.7px #c5c5c5;
+    border-bottom:solid 0.5px rgba(230, 230, 230, 1);
 }
 .icon-user{
     height: auto;
