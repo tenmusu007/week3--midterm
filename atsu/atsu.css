@@ -49,10 +49,15 @@ body{
     margin: 3%;
     display: flex;
 }
+.icon-mediu{
+    width: 30px;
+    height:30px;
+}
 .medium{
     font-size: 25px;
     display: inline-block;
     padding-left: 60px;
+    align-items: center;
 }
 .hero-box{
     background-color: #F1AE03;
