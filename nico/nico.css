@@ -4,13 +4,20 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.margin{
+    margin-left: 7.6px;
+    margin-right: 7.6px;
+}
 body{
-    background-color:rgb(244 243 241);
+    background-color:rgb(255 255 255);
 }
 nav{
-    display: block;
+    width: fit-content;
+    height: fit-content;
 }
+
 .side-bar{
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,9 +27,13 @@ nav{
     border-right:solid rgba(230, 230, 230, 1) 0.5px;
     
 }
+.content-container{
+    display: flex;
+    justify-content: space-between;
+}
 .icons{
     height: auto;
-    width: 30px;
+    width: 24px;
     padding-top: 30px;
 }
 #iconito {
@@ -38,4 +49,296 @@ nav{
 .logo-container{
     padding-top: 40px;
 }
+.right-bar-container{
+    display: flex;
+}
+.bar-right-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    border-left:solid rgba(230, 230, 230, 1) 0.5px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.side-bar-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 329px;
+}
+main{
+    min-width: 1030px;
+    margin-left: 80px;
+}
+.center-content-container{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 0.5px rgba(230, 230, 230, 1);
+}
+.header-bar-out{
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    width: 692px;
+}
+.header-bar{
+    display: flex;
+    width: 692px;
+    align-items: center;
+}
+.creator-icon{
+    width: 32px;
+    height: auto;
+    border-radius: 32px;
+}
+.publisher-icon{
+    margin-right: 10px;
+}
+.name-publisher{
+    height: fit-content;
+    font-size: 14px;
+    color: #757575;
 
+}
+.publisher-page{
+    font-size: 14px;
+    margin-left: 3px;
+}
+.point{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.follow{
+    color: rgb(230 58 38);
+    font-size: 14px;
+}
+.upgrade{
+    display: flex;
+    font-size: 14px;
+    height: 35.6px;
+    width: 329px;
+    padding: 7px 16px 9px 16px;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.upgrade-container{
+    padding-top: 40px;   
+}
+.upgrade-text{
+    color: white;
+}
+.search-svg{     
+    width: 20px;
+    height: auto;
+}
+.search-icon{
+    padding: 7px 7px 6px 8px;
+}
+.search-bar{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid rgb(230 230 230);
+    width: 329px;
+    height: 41.1px;
+    border-radius: 20px;
+}
+input{
+    border:none;
+    font-size: 14px;
+}
+.side-bar-content-cont{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.will{
+    height:auto ;
+    width:88px ;
+    border-radius: 50%;
+}
+.publisher-photo{
+    width: 329px;
+    height: fit-content;
+    margin-top: 40px;
+}
+.name-of-publisher-cont{
+    margin-top: 16px;
+}
+.Publisher{
+    font-size: 15px;
+    font-weight: 600;
+}
+.followers{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 6px;
+}
+.bio{
+    font-size: 14px;
+    color: #757575;
+    margin-top: 12px;
+    line-height: 20px;
+}
+.follow-button-container{
+    display: flex;
+    margin-top: 24px;
+    
+}
+.follow-button{
+    text-decoration: none;
+    padding: 7px 16px 9px;
+    background-color: rgba(230, 58, 38, 1);
+    width: auto;
+    border-width: 1px;
+    color: rgb(255 255 255);
+    border-radius: 99rem ;
+    border-style: solid;
+    font-weight: 500;
+}
+.email-icon{
+    height:auto ;
+    width: 38px;
+    padding: 8px;
+}
+.email-icon-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 8px;
+    background-color: rgba(230, 58, 38, 1);
+    width: fit-content;
+    border-radius: 28px;
+}
+h2{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.music{
+    height: auto;
+    width: 58px;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+.related-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.related-content-text{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.no-one{
+    color: #757575;
+}
+.fst{
+    margin-bottom: 20px;
+    display: flex;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 24px 0;
+    line-height: 16px;
+}
+.qt{
+    font-size: 11px;
+    color: #757575;
+    margin-left: 6px;
+}
+.center-content-cont{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+}
+.member-cont{
+    padding: 16px;
+    width: 692px;
+}
+.member-container{
+    background-color: rgb(242 242 242);
+}
+.member-text{
+
+}
+.solid{
+    text-decoration: underline;
+}
+.header-publisher{
+    width: 692px;
+}
+.header-pub{
+    display: flex;
+    align-items: center;
+}
+.willi{
+    height: auto;
+    width:48px;
+    border-radius: 48px;
+    margin-bottom: 4px;
+}
+.head-cont{
+    margin-right: 16px;
+}
+.listen{
+    color: #E63A26;
+}
+.header-publisher{
+    margin-top: 56px;
+    margin-bottom: 32px;
+}
+.text-cont-int{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+.jiji{
+    display: flex;
+    flex-direction: row;
+    color: #757575;
+    font-size: 14px;
+}
+.xd{
+    margin-left: 3px;
+    margin-right:3px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.title-text{
+    width: 692px;
+}
+.second-txt{
+    margin-top: 17.38px;
+}
+.text2{
+    font-size: 22px;
+    color: #757575;
+}
+.mainjpg{
+    width: 692px;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+.para1{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textito{
+    width: 692px;
+    line-height: 32px;
+}
