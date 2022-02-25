@@ -24,18 +24,20 @@ CenterNav.addEventListener("click", toggleAbout);
 
 const dots = document.querySelector(".dot");
 const modal = document.querySelector(".modal");
-
+const mask = document.querySelector("#mask");
 
 function modalOpen (e){
     e.preventDefault();
     modal.classList.toggle("active");
+    mask.classList.remove("hidden")
+
 }
 
-// function modalClose(){
-//     modal.classList.remove("active");
-// }
+function modalClose(){
+    modal.classList.remove("active");
+    mask.classList.add("hidden");
+}
 
-const center = document.querySelector(".center");
 
 dots.addEventListener("click", modalOpen);
-// center.addEventListener("click", modalClose);
+mask.addEventListener("click", modalClose);
