@@ -68,7 +68,7 @@ nav{
     width: 329px;
 }
 main{
-    width: 100%;
+    min-width: 1030px;
     margin-left: 80px;
 }
 .center-content-container{
@@ -310,4 +310,35 @@ h2{
 .xd{
     margin-left: 3px;
     margin-right:3px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.title-text{
+    width: 692px;
+}
+.second-txt{
+    margin-top: 17.38px;
+}
+.text2{
+    font-size: 22px;
+    color: #757575;
+}
+.mainjpg{
+    width: 692px;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+.para1{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textito{
+    width: 692px;
+    line-height: 32px;
 }
