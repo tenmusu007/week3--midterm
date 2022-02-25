@@ -139,6 +139,23 @@ h2{
     display: none;
 }
 
+.center__container-About{
+    text-align: center;
+}
+
+.center__container-About > span{
+    font-size: 14px;
+    color: var(--readingListCircle);
+}
+
+.center__container-readingList-Container.hidden{
+    display: none;
+}
+
+.center__container-About.hidden{
+    display: none;
+}
+
 .center__container-menu > nav > ul{
     display: flex;
     justify-content: flex-start;
