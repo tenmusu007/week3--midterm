@@ -68,7 +68,7 @@ nav{
     width: 329px;
 }
 main{
-    min-width: 1030px;
+    max-width: 1030px;
     margin-left: 80px;
 }
 .center-content-container{
@@ -267,9 +267,7 @@ h2{
 .member-container{
     background-color: rgb(242 242 242);
 }
-.member-text{
 
-}
 .solid{
     text-decoration: underline;
 }
