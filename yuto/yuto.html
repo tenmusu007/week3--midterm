@@ -7,8 +7,18 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2eade893e9.js" crossorigin="anonymous"></script>
+
+    <!-- load CSS files -->
+    <!-- variables -->
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="yuto.css">
+    <!-- Left sidebar -->
+    <link rel="stylesheet" href="./styles/LeftSidebar.css">
+    <!-- Center -->
+    <link rel="stylesheet" href="./styles/CenterPart.css">
+    <!-- Right sidebar -->
+    <link rel="stylesheet" href="./styles/RightSidebar.css">
+    <!-- Base -->
+    <link rel="stylesheet" href="./styles/yuto.css">
     <title>Profile</title>
 </head>
 <body>
@@ -37,6 +47,7 @@
                     <div class="center__container-inner">
                         <div class="center__container-title">
                             <h2>Name</h2>
+                            <div id="mask" class="hidden"></div>
                             <div class="modal">
                                 <ul>
                                     <li>Copy link to profile</li>
@@ -62,7 +73,7 @@
                                 <h3>Reading list</h3>
                                 <div class="viewList">
                                     <span><a href="http://">View List</a></span>
-                                    <i class="fas fa-lock"></i>
+                                    <i class="fas fa-lock fa-2xs lock"></i>
                                 </div>
                             </div>
                             <div class="center__container-readingList-box2">
@@ -109,7 +120,6 @@
             </div>
         </div>
     </main>
-
     <script src="./yuto.js"></script>
 </body>
 </html>

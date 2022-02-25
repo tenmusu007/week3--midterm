@@ -1,0 +1,61 @@
+@import url(../../style.css);
+
+.sidebarLeft__iconZone > .i::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    content: "\f007";
+}
+
+.global-container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebarLeft{
+    background-color: var(--background-color);
+    flex-basis: 5.72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: solid 0.1px var(--border);
+}
+
+.sidebarLeft__top{
+    height: 15%;
+    margin-top: 1.4em;
+}
+
+.sidebarLeft__top-logo{
+    cursor: pointer;
+}
+
+.sidebarLeft__iconZone{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarLeft__iconZone > i{
+    cursor: pointer;
+}
+
+.sidebarLeft__iconZone > .border{
+    width: 24px;
+    border: solid .1px var(--border);
+}
+
+.sidebarLeft__bottom{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-right: 0.5em;
+}
+
+.sidebarLeft__bottom > img{
+    border-radius: 50%;
+    height: 50%;
+    width: 120%;
+}

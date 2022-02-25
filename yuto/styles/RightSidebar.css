@@ -1,0 +1,112 @@
+@import url(../../style.css);
+
+.sidebarRight{
+    background-color: var(--background-color);
+    flex-basis: 26.28%;
+    border-left: solid 0.1px var(--border);
+}
+
+.sidebarRight__container{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.sidebarRight__container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2em;
+    height: 20%;
+    margin-bottom: 2.5em;
+}
+
+
+.sidebarRight__container-form > button{
+    cursor: pointer;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 2em;
+    background-color: #080808;
+    color: #fff;
+    font-size: 14px;
+}
+
+.sidebarRight__container-form > .searchBox{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.searchBox::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: url(./image/searchIcon.png);
+    display: inline-block;
+    position: absolute;
+    top: .9em;
+    left: .7em;
+}
+
+.sidebarRight__container-form > .searchBox > input{
+    width: 74%;
+    border: 0;
+    border: 1.3px solid #E6E6E6;
+    border-radius: 1.5em;
+    padding: 1em 2.8em;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sidebarRight__container-profilePic{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 22em;
+}
+
+.sidebarRight__container-profilePic > img{
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    aspect-ratio: auto 88 / 88;
+    max-width: 100%;
+}
+
+.sidebarRight__container-profilePic > span{
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--sideBar-name);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.sidebarRight__container-profilePic > a{
+    color: rgb(26, 137, 23);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sidebarRight__container-profilePic > a:hover{
+    color: var(--button-hovered);
+}
+
+.sidebarRight__container-footer{
+    width: 95%;
+    padding: 24px 0;
+}
+
+.sidebarRight__container-footerMenu{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.4em;
+}
+
+.sidebarRight__container-footerMenu > span{
+    font-size: 11px;
+    cursor: pointer;
+    color: var(--readingListCircle);
+    line-height: 16px;
+}
