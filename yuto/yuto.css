@@ -14,7 +14,6 @@ body{
     content: "\f007";
 }
 
-
 .global-container{
     display: flex;
     height: 100vh;
@@ -39,7 +38,6 @@ body{
     cursor: pointer;
 }
 
-
 .sidebarLeft__iconZone{
     height: 50%;
     display: flex;
@@ -51,8 +49,6 @@ body{
 .sidebarLeft__iconZone > i{
     cursor: pointer;
 }
-
-
 
 .sidebarLeft__iconZone > .border{
     width: 24px;
@@ -107,7 +103,7 @@ h2{
   width: 4px;
   height: 4px;
   border-radius: 20px;
-  background-color: var( --button);
+  background-color: var(--button);
 }
 
 .dot {
@@ -129,6 +125,67 @@ h2{
   left: 6px;
 }
 
+.dot:hover, .dot:hover::after, .dot:hover::before{
+   background-color: var(--bold-letter);
+}
+
+.modal{
+    width: 15%;
+    text-align: center;
+    display: flex;
+    margin-left: 36.4em;
+    position: absolute;
+    top: 7em;
+    background: var(--background-color);
+    border:solid 1px var(--border);
+    display: none;
+}
+
+.modal.active{
+    display: block;
+}
+
+.modal.active > ul{
+    padding-left: 18px;
+}
+
+.modal::before{
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -15px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+
+.modal::after{
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid var(--border);
+  z-index: 1;
+}
+
+.modal > ul > li{
+    list-style: none;
+    color: var(--readingListCircle);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal > ul:first-child{
+    padding-bottom: 3px;
+}
+
+.modal > ul > li:hover{
+    color: var(--bold-letter);
+}
+
 .center__container-menu > nav > ul{
     display: flex;
     justify-content: flex-start;
@@ -141,7 +198,7 @@ h2{
     cursor: pointer;
 }
 
-.center__container-menu > nav > ul > li >span.active{
+.center__container-menu > nav > ul > li >#centerHome.active, .center__container-menu > nav > ul > li >#centerAbout.active{
     padding-bottom: 16px;
     border-bottom: solid 1px black;
 }
@@ -177,11 +234,14 @@ h2{
     font-size: 14px;
 }
 
+.center__container-readingList-box1 > .viewList > span > a:hover{
+    border-color: var(--bold-letter);
+}
+
 .center__container-readingList-box2{
     width: 25%;
     position: relative;
 }
-
 
 .center__container-readingList-box2 > .square1, .center__container-readingList-box3 > .square2, .center__container-readingList-box4 > .square3{
     background-color: var(--bold-letter);
@@ -321,7 +381,12 @@ h2{
 
 .sidebarRight__container-profilePic > a{
     color: rgb(26, 137, 23);
+    font-size: 13px;
     cursor: pointer;
+}
+
+.sidebarRight__container-profilePic > a:hover{
+    color: var(--button-hovered);
 }
 
 .sidebarRight__container-footer{
