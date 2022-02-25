@@ -11,8 +11,13 @@
 body{
     background-color:rgb(255 255 255);
 }
+nav{
+    width: fit-content;
+    height: fit-content;
+}
 
 .side-bar{
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,7 +33,7 @@ body{
 }
 .icons{
     height: auto;
-    width: 30px;
+    width: 24px;
     padding-top: 30px;
 }
 #iconito {
@@ -64,11 +69,11 @@ body{
 }
 main{
     width: 100%;
+    margin-left: 80px;
 }
 .center-content-container{
     display: flex;
     justify-content: center;
-    width: 100%;
     border-bottom: solid 0.5px rgba(230, 230, 230, 1);
 }
 .header-bar-out{
@@ -246,4 +251,63 @@ h2{
     font-size: 11px;
     color: #757575;
     margin-left: 6px;
+}
+.center-content-cont{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+}
+.member-cont{
+    padding: 16px;
+    width: 692px;
+}
+.member-container{
+    background-color: rgb(242 242 242);
+}
+.member-text{
+
+}
+.solid{
+    text-decoration: underline;
+}
+.header-publisher{
+    width: 692px;
+}
+.header-pub{
+    display: flex;
+    align-items: center;
+}
+.willi{
+    height: auto;
+    width:48px;
+    border-radius: 48px;
+    margin-bottom: 4px;
+}
+.head-cont{
+    margin-right: 16px;
+}
+.listen{
+    color: #E63A26;
+}
+.header-publisher{
+    margin-top: 56px;
+    margin-bottom: 32px;
+}
+.text-cont-int{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+.jiji{
+    display: flex;
+    flex-direction: row;
+    color: #757575;
+    font-size: 14px;
+}
+.xd{
+    margin-left: 3px;
+    margin-right:3px;
 }
