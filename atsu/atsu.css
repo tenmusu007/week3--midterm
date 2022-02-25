@@ -67,6 +67,8 @@ body{
     font-size: 30px;
     align-items: center;
 }
+
+/* heroarea */
 .hero-box{
     background-color: #f9bf1c;
     background-position: 95% 100%;
@@ -74,8 +76,6 @@ body{
     background-size: 400px;
     background-repeat  : no-repeat
 }
-
-/* heroarea */
 .hero-sent{
     font-size: 65px;
     padding: 10% 50% 0 0;
