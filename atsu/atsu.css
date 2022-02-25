@@ -143,6 +143,8 @@ body{
 .date{
     font-size: 13px;
     color: gray;
+    display: flex;
+    justify-content: space-between;
 }
 /* article */
 .container-1{
@@ -157,12 +159,12 @@ body{
 }
 .article{
     display: flex;
-    justify-content: space-between;
 }
 .aricle-sent{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    width: 70%;
 }
 .auther-pic{
     border-radius: 50%;
@@ -183,6 +185,20 @@ body{
     width: 200px;
     height: 160px;
 }
+.img-box{
+    display: flex;
+}
+.icon-box1{
+    display: flex;
+    font-size: 13px;
+}
+.tag{
+    content: url('https://api.iconify.design/ep/collection-tag.svg?color=black&height=25');
+}
+.more{
+    content: url('https://api.iconify.design/carbon/overflow-menu-horizontal.svg?color=black&height=25');
+}
+
 /* option */
 .option-box{
     width: 35%;
