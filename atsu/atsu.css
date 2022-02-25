@@ -4,6 +4,7 @@
 }
 body{
     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     max-width: 1150px;
@@ -11,18 +12,23 @@ body{
 }
 .container-head{
     margin: 0 auto;
+    max-width: 1150px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
 }
 .header-hero{
-    background-color: #F1AE03;
+    background-color: #f9bf1c;
+    border-bottom: 1px solid;
 }
 .header{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 2% 0 1% 0;
+    padding: 2% 0 0% 0;
     font-size: 15px;
-    background-color: #F1AE03;
+    background-color: #f9bf1c;
     position: fixed;
+    border-bottom: 1px solid;
 }
 .header nav{
     margin: 0;
@@ -50,23 +56,26 @@ body{
     display: flex;
 }
 .icon-mediu{
-    width: 30px;
-    height:30px;
+    width: 200px;
+    height:50px;
 }
 .medium{
-    font-size: 25px;
-    display: inline-block;
-    padding-left: 60px;
+    font-size: 30px;
     align-items: center;
 }
 .hero-box{
-    background-color: #F1AE03;
+    background-color: #f9bf1c;
+    background-position: 95% 100%;
+    background-image   : url("./image/hero-pic.png");
+    background-size: 400px;
+    background-repeat  : no-repeat
 }
 
 /* heroarea */
 .hero-sent{
-    font-size: 60px;
-    padding: 8% 50% 0 0;
+    font-size: 65px;
+    padding: 10% 50% 0 0;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .hero-sent2{
     padding: 0 60% 0 0;
@@ -79,6 +88,9 @@ body{
     padding: 1% 2% 1% 2%;
     border: 1px solid;
     margin: 3% 0 3% 0;
+}
+.hero-pic{
+    width: 300px;
 }
 
 /* trend */
@@ -138,14 +150,24 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding: 50px 0 0 0;
 }
 .article-box{
-    padding: 40px;
     width: 55%;
 }
 .article{
     display: flex;
     justify-content: space-between;
+}
+.aricle-sent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.auther-pic{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
 .auther1{
     font-size: 15px;
@@ -164,7 +186,7 @@ body{
 /* option */
 .option-box{
     width: 35%;
-    padding: 40px;
+    padding: 0px 40px 40px 40px;
 }
 .option{
     background-color: white;
